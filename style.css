@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+    margin: 20px 50px;
+    color: black;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header #logo {
+    font-size: 50px;
+    font-weight: 900px;
+    color: gold;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: overline underline;
+    color: #fde047;
+}
+
+#Home h2 {
+    text-align: center;
+    color: #fde047;
+}
+
+#Home {
+    text-align: justify;
+
+}
+
+#About h2 {
+    text-align: center;
+
+}
+
+#Project h2 {
+    text-align: center;
+
+}
+
+#Contact h2 {
+    text-align: center;
+}
+
+#Home .image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#Home .image img {
+    width: 150px;
+    height: auto;
+}
+
+img {
+    border-radius: 20px;
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+}
+
+footer .socialmedia {
+    display: inline-block;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: solid;
+    color: #fde047;
+    width: 70%;
+    margin: 0 100px;
+}
+
+.Table {
+    width: auto;
+    border-radius: bold;
+    margin: auto;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.Table th,
+.Table td {
+    padding: 12px 15px;
+    border: 2px solid gold;
+}
+
+h2 {
+    color: green;
+    font-weight: 1500;
+}
+
+h3 {
+    color: blue;
+    font-weight: 1000;
+}
+
+p {
+    color: white;
+    line-height: 3;
+}
+
+a {
+    color: red;
+}
+
+/*
+#Home h2{color: green;
+    font-weight: 1500;
+}
+#About h2{color: green;
+    font-weight: 1500;
+}
+#Project .Skills h2{color: green;
+    font-weight: 1500;
+}
+#Project h2{color: green;
+    font-weight: 1500;
+}
+#Project .project-item h2{color: green;
+    font-weight: 1500;
+}
+*/
+#Project .project-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Project .project-container .project-item {
+    background-color: black;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    width: 40%;
+
+}
